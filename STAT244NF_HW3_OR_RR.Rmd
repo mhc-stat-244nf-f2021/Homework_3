@@ -94,13 +94,7 @@ id_outbreak <- data.frame(source = rbinom(N_d, 1, prob = N_fest/N_d))
 
 ```
 
-(c) Divide the value you calculated in Question ID 4. (b) by its complement. How does this compare to the quantities you calculated in Question ID 3? Interpret this value in context.
-
-```{r}
-
-```
-
-(d) Find a 95% confidence interval for the estimate in (c). You can use the `confint` function and exponentiate that interval to get that interval. Please interpret this interval in context.
+(c) Find a 95% confidence interval for the estimate in (b). You can use the `confint` function and exponentiate that interval to get that interval. Please interpret this interval in context.
 
 ```{r}
 
